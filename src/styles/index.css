@@ -9,3 +9,21 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.AlertHamburger {
+    filter: invert(1);
+}
+
+.card {
+width: 18rem;
+}
+
+img {
+    width: 100%;
+}
+
+.footer {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

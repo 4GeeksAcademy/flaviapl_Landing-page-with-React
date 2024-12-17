@@ -4,14 +4,20 @@ import Card1 from "./card1";
 const CardHolder = () => {
     return (
         <>
-        
-        <div className= "d-flex justify-content-between">
-                <Card1/>
-                <Card1/>
-                <Card1/>
-                <Card1/>
-        </div>
-        
+            <div className="row">
+                    <div className="col-12 col-md-6 col-lg-3">
+                        <Card1 />
+                    </div>
+                    <div className="col-12 col-md-6 col-lg-3">
+                        <Card1 />
+                    </div>
+                    <div className="col-12 col-md-6 col-lg-3">
+                        <Card1 />
+                    </div>
+                    <div className="col-12 col-md-6 col-lg-3">
+                        <Card1 />
+                    </div>
+                </div>
         </>
     )
 }

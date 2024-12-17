@@ -5,7 +5,7 @@ const Navbar = () => {
     <>
         <nav className="navbar navbar-expand-lg bg-body-tertiary ">
         <div className="container-fluid bg-black">
-            <a className="navbar-brand  text-white fw-medium ps-4" href="#">Start Bootstrap</a>
+            <a className="navbar-brand  text-white fw-medium ps-5" href="#">Start Bootstrap</a>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="AlertHamburger navbar-toggler-icon"></span>
             </button>
@@ -29,7 +29,7 @@ const Navbar = () => {
                 </ul>
                 </li>
                 <li className="nav-item">
-                <a className="nav-link text-white-50 fw-medium" href="#" aria-disabled="false">Contact</a>
+                <a className="nav-link text-white-50 fw-medium me-4" href="#" aria-disabled="false">Contact</a>
                 </li>
             </ul>
             </div>

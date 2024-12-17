@@ -14,8 +14,6 @@ const Home = () => {
 			<CardHolder/>
 			<Footer/>
 		</>
-
-
 	);
 };
 

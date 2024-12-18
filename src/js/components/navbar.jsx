@@ -3,9 +3,9 @@ import React from "react";
 const Navbar = () => {
     return (
     <>
-        <nav className="navbar navbar-expand-lg bg-body-tertiary ">
+        <nav className="navbar navbar-expand-lg bg-body-tertiary pt-0">
         <div className="container-fluid bg-black">
-            <a className="navbar-brand  text-white fw-medium ps-5" href="#">Start Bootstrap</a>
+            <a className="navbar-brand text-white fw-medium ps-5" href="#">Start Bootstrap</a>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="AlertHamburger navbar-toggler-icon"></span>
             </button>
